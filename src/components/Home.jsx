@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage1 from "../assets/HeroImage1.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import ParticlesComponent from '../config/particles';
@@ -13,7 +13,7 @@ const Home = () => {
     <div name="home" className="h-vh w-full bg-gradient-to-b from-black via-black to-gray-800   ">
 
         
-      <ParticlesComponent></ParticlesComponent>
+      <ParticlesComponent className="-z-50"></ParticlesComponent>
      
       <div className="max-w-vw  mx-auto flex flex-col items-center justify-around min-h-[800px]  px-4 md:flex-row md:px-7 ">
         <div className="flex flex-col justify-center h-full order-2 md:order-1 gap-4">
@@ -39,11 +39,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-20  order-1">
+        <div className="mt-20   order-1">
           <img
-            src={HeroImage}
+            src={HeroImage1}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto md:w-full md:max-w-[500px]"
           />
         </div>
       </div>
