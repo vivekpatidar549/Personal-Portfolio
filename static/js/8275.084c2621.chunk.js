@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkone_portfolio=self.webpackChunkone_portfolio||[]).push([[8275],{8275:function(n,t,e){e.r(t),e.d(t,{SquareDrawer:function(){return i}});var r=e(5671),u=e(3144),o=Math.sqrt(2);var i=function(){function n(){(0,r.Z)(this,n)}return(0,u.Z)(n,[{key:"draw",value:function(n){!function(n){var t=n.context,e=n.radius/o,r=2*e;t.rect(-e,-e,r,r)}(n)}},{key:"getSidesCount",value:function(){return 4}}]),n}()}}]);
+//# sourceMappingURL=8275.084c2621.chunk.js.map
