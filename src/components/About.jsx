@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div name="about" className="w-full h-vh min-h-[750px] bg-gradient-to-b from-gray-800 to-black  text-white flex items-center justify-center pt-9 ">
       <div className=" max-w-screen-lg  mx-auto flex flex-col gap-8 md:flex-row items-center justify-center  ">
-        <div className="flex justify-center items-center mx-auto w-[250px] min-w-[350px] md:w-auto">
+        <div className="flex justify-center hidden items-center mx-auto w-[250px] min-w-[350px] md:w-auto md:block">
           <img src={aboutImage} alt="imagee"></img>
         </div>
         <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full ">

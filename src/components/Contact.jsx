@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full h-vh bg-gradient-to-b from-black to-gray-800 p-4 text-white  min-h-[600px] flex items-center justify-center pt-9">
       <div className="flex flex-col md:flex-row p-4 max-w-screen-lg   mx-auto gap-8">
-        <div className="pb-8   p-2 w-2/3 md:w-full flex flex-col gap-10 pt-0 mx-auto md:pt-8">
+        <div className="pb-8   p-2 w-4/5 md:w-full flex flex-col gap-10 pt-0 mx-auto md:pt-8">
           <p className="text-5xl text-[#0B8AC4] font-bold inline ">
             Contact
           </p>
@@ -27,7 +27,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/nadevedb"
             method="POST"
-            className=" flex flex-col w-2/3 md:w-3/4"
+            className=" flex flex-col w-4/5 md:w-4/5"
           >
             <input
               type="text"

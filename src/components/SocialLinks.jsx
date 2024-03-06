@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/vivekpatidar549/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md ",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://auth.geeksforgeeks.org/user/vivek_patidar__/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user",
-      style: "rounded-br-md",
+      style: "",
     },
     {
       id: 4,
