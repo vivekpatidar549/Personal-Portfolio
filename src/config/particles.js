@@ -21,7 +21,7 @@ const ParticlesComponent = (props) => {
         events: {
           onClick: {
             enable: true,
-            mode: "grab",
+            mode: "repulse",
           },
           onHover: {
             enable: true,

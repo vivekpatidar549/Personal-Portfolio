@@ -7,10 +7,12 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full h-vh bg-gradient-to-b from-black to-gray-800 p-4 text-white  min-h-[600px] flex items-center justify-center pt-9">
       <div className="flex flex-col md:flex-row p-4 max-w-screen-lg   mx-auto gap-8">
-        <div className="pb-8   p-2 w-4/5 md:w-full flex flex-col gap-10 pt-0 mx-auto md:pt-8">
-          <p className="text-5xl text-[#0B8AC4] font-bold inline ">
+        <div className="pb-8   p-2  flex flex-col gap-10 pt-0 mx-auto md:pt-8">
+          <div>
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline text-[#0B8AC4]">
             Contact
           </p>
+          </div>
           <p className="pr-6 text-justify">I'd love to connect and collaborate with you. Whether you have a project in mind, a question, or just want to say hello, feel free to reach out.</p>
             <div className="flex gap-2 items-center">
               <a href="mailto:vivekpatidar549.gmailcom" ><IoIosMail size={35}/></a>
@@ -19,7 +21,7 @@ const Contact = () => {
           <div className="flex gap-6">
             <a href="https://www.linkedin.com/in/vivekpatidar549/"><FaLinkedin size={35} /></a>
             <a href="https://github.com/vivekpatidar549"><FaGithub size={35} /></a>
-            <a href="https://www.linkedin.com/in/vivek-patidar-2281a1209"><GrInstagram  size={35}/></a>
+            <a href="https://www.instagram.com/vivek_patidar__/"><GrInstagram  size={35}/></a>
           </div>
         </div>
 
