@@ -12,6 +12,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import gcloud from '../assets/gcloud.png';
 import postman from '../assets/postman.png';
+import ParticlesComponent from '../config/particles';
+import '../index.css'
 
 const Experience = () => {
   const techs = [
@@ -96,11 +98,11 @@ const Experience = () => {
   ];
 
   return (
-    <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-vh min-h-[800px]  flex items-center justify-center pt-9 "
-    >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full h-vh min-h-[800px]  flex items-center justify-center pt-9 ">
+       <div  id="particles">
+        <ParticlesComponent />
+      </div>
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white z-10">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline text-[#0B8AC4]">
             Experience
@@ -108,7 +110,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0 z-10" >
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

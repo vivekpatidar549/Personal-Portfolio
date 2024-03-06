@@ -3,10 +3,17 @@ import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import ParticlesComponent from '../config/particles';
+import '../index.css'
+
 const Contact = () => {
   return (
     <div name="contact" className="w-full h-vh bg-gradient-to-b from-black to-gray-800 p-4 text-white  min-h-[600px] flex items-center justify-center pt-9">
-      <div className="flex flex-col md:flex-row p-4 max-w-screen-lg   mx-auto gap-8">
+       <div  id="particles">
+        <ParticlesComponent />
+      </div>
+
+      <div className="flex flex-col md:flex-row p-4 max-w-screen-lg   mx-auto gap-8 z-10">
         <div className="pb-8   p-2  flex flex-col gap-10 pt-0 mx-auto md:pt-8">
           <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline text-[#0B8AC4]">
@@ -25,7 +32,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className=" w-full flex justify-center items-center p-4">
+        <div className=" w-full flex justify-center items-center p-4 z-10">
           <form
             action="https://getform.io/f/nadevedb"
             method="POST"
