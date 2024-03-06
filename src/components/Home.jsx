@@ -10,18 +10,19 @@ const Home = () => {
   
   return (
     
-    <div name="home" className="h-vh w-full bg-gradient-to-b from-black via-black to-gray-800   ">
+    <div name="home" className="relative h-vh w-full bg-gradient-to-b from-black via-black to-gray-800">
 
-        
-      <ParticlesComponent className="-z-50"></ParticlesComponent>
-     
-      <div className="max-w-vw  mx-auto flex flex-col items-center justify-around min-h-[800px]  px-4 md:flex-row md:px-7 ">
-        <div className="flex flex-col justify-center h-full order-2 md:order-1 gap-4">
+      <div className="absolute top-0 left-0 w-full h-full z-0">
+        <ParticlesComponent />
+      </div>
+
+      <div className="relative max-w-vw mx-auto flex flex-col items-center justify-around min-h-[800px] px-4 md:flex-row md:px-7 z-10">
+        <div className="flex flex-col justify-center h-full gap-4">
           <h3 className="text-4xl sm:text-[55px] font-bold text-[#0B8AC4]">Hi,</h3>
           <h3 className="text-4xl sm:text-[55px] font-bold text-white">I'am Vivek</h3>
-          <Checked></Checked>
+          <Checked />
           <p className="text-gray-500 py-4 max-w-md text-justify">
-          🌐 I'm Vivek, weaving together the art of web development and the science of UI/UX design. Join me as I shape digital spaces that are intuitive, visually pleasing, and centered around the user.
+            🌐 I'm Vivek, weaving together the art of web development and the science of UI/UX design. Join me as I shape digital spaces that are intuitive, visually pleasing, and centered around the user.
           </p>
 
           <div>
@@ -39,7 +40,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-20   order-1">
+        <div className="mt-20">
           <img
             src={HeroImage1}
             alt="my profile"

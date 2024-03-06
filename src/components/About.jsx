@@ -2,7 +2,7 @@ import React from "react";
 import aboutImage2 from '../assets/aboutImage3.png'
 const About = () => {
   return (
-    <div name="about" className="w-full h-vh min-h-[750px] bg-gradient-to-b from-gray-800 to-black  text-white flex items-center justify-center pt-9 ">
+    <div name="about" className="w-full h-vh min-h-[750px] bg-gradient-to-b from-gray-800 to-black  text-white flex items-center justify-center pt-9">
       <div className=" max-w-screen-lg  mx-auto flex flex-col gap-8 md:flex-row items-center justify-center  ">
         <div className="flex justify-center hidden items-center mx-auto  min-w-[350px] md:w-auto md:block">
           <img className="max-h-[500px] mx-auto" src={aboutImage2} alt="imagee"></img>
