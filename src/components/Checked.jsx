@@ -2,7 +2,7 @@ import React from 'react'
 import { useTypewriter,Cursor } from "react-simple-typewriter";
 export default function Checked() {
     const [text]=useTypewriter({
-        words:['UI/UX Designer',"Web Developer",'AI ML Enthusiast'],
+        words:['UI/UX Designer',"Full Stack Developer",'AI ML Enthusiast'],
         loop:{},
         typeSpeed:120,
         deleteSpeed:80,
