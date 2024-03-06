@@ -3,7 +3,7 @@ import HeroImage1 from "../assets/HeroImage1.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import ParticlesComponent from '../config/particles';
-
+import '../index.css'
 import Checked from "./Checked";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     
     <div name="home" className="relative h-vh w-full bg-gradient-to-b from-black via-black to-gray-800">
 
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+      <div  id="particles">
         <ParticlesComponent />
       </div>
 

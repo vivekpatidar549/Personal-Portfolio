@@ -5,6 +5,8 @@ import AiStudy from "../assets/portfolio/AiStudy.png";
 import ApnaMalwa from "../assets/portfolio/ApnaMalwa.jpeg";
 import pass from "../assets/portfolio/pass.png";
 import weather from "../assets/portfolio/weather.png";
+import ParticlesComponent from '../config/particles';
+import '../index.css'
 
 const Portfolio = () => {
   const portfolios = [
@@ -38,7 +40,11 @@ const Portfolio = () => {
 
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full  text-white max-h-vh  pt-9 ">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full">
+      <div  id="particles">
+        <ParticlesComponent />
+      </div>
+
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full z-10">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#0B8AC4] border-gray-500">
             Portfolio

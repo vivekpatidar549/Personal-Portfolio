@@ -1,11 +1,16 @@
 import React from "react";
 import aboutImage2 from '../assets/aboutImage3.png'
+import ParticlesComponent from '../config/particles';
+import '../index.css'
 const About = () => {
   return (
-    <div name="about" className="w-full h-vh min-h-[750px] bg-gradient-to-b from-gray-800 to-black  text-white flex items-center justify-center pt-9">
-      <div className=" max-w-screen-lg  mx-auto flex flex-col gap-8 md:flex-row items-center justify-center  ">
+    <div name="about" className="w-full h-vh min-h-[750px] bg-gradient-to-b from-gray-800 to-black  text-white flex items-center justify-center pt-9 ">
+      <div  id="particles">
+        <ParticlesComponent />
+      </div>
+      <div className=" max-w-screen-lg  mx-auto flex flex-col gap-8 md:flex-row items-center justify-center z-10 ">
         <div className="flex justify-center hidden items-center mx-auto  min-w-[350px] md:w-auto md:block">
-          <img className="max-h-[500px] mx-auto" src={aboutImage2} alt="imagee"></img>
+          <img className="max-h-[500px] mx-auto z-50" src={aboutImage2} alt="imagee"></img>
         </div>
         <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full ">
           <div className="pb-8">
